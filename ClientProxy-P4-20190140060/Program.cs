@@ -32,7 +32,8 @@ namespace ClientProxy_P4_20190140060
             b.Y = 6;
             double selisihX = a.X - b.X;
             double selisihY = a.Y - b.Y;
-            double jarak = Math.Sqrt(Math.Pow(selisihX, 2) + Math.Pow(selisihY, 2));
+            double jarak = Math.Sqrt(Math.Pow(selisihX, 2) +
+            Math.Pow(selisihY, 2));
             Console.WriteLine("Hasil Koordinat " + jarak);
             Console.ReadLine();
         }
